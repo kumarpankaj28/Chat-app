@@ -15,9 +15,7 @@ dotenv.config();
 const __dirname = path.resolve();
 const PORT = process.env.PORT || 5000;
 
-// app.get("/", (req, res) => {
-//     res.send("Hello Pankaj !!")
-// });
+
 app.use(express.json()); // To parse the incoming requests with JSON payloads (from req.body)
 app.use(cookieParser());
 
