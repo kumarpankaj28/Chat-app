@@ -8,9 +8,10 @@ import userRoutes from "./routes/user.routes.js";
 import connectToMongoDB from "./db/connectToMongoDB.js";
 import { app, server } from "./socket/socket.js";
 
-const app = express();
+// const app = express();
 
 dotenv.config();
+
 const __dirname = path.resolve();
 const PORT = process.env.PORT || 5000;
 
